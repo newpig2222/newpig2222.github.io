@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2019/01/24/my-blog/</loc>
+    <loc>http://thelazypig.space/2019/01/24/hello-world/</loc>
     
-    <lastmod>2019-01-24T03:00:07.220Z</lastmod>
+    <lastmod>2019-01-25T02:20:13.507Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/01/24/hello-world/</loc>
+    <loc>http://thelazypig.space/catgories/index.html</loc>
     
-    <lastmod>2019-01-24T00:53:56.055Z</lastmod>
+    <lastmod>2019-01-25T00:38:27.518Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://thelazypig.space/about/index.html</loc>
+    
+    <lastmod>2019-01-25T00:34:13.787Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://thelazypig.space/tags/index.html</loc>
+    
+    <lastmod>2019-01-24T08:00:48.070Z</lastmod>
     
   </url>
   
