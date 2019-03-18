@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+  
+  <title>极限的性质 | thelazypig&#39;home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="一、极限的唯一性若\lim _{x \to *}f(x)=A，则A唯一。  求证\lim_{x \to {x_0}}f(x)=A，则A唯一。  【分析】此题可用反证法假设f(x)的极限还等于B，得出矛盾，从而证得！ 【证明】已知\lim_{x \to {x_0}}f(x)=A, 则 \forall \xi &amp;gt;0 ,\exists \delta_1 &amp;gt;0，当0&amp;lt;|x-{x_0}|&amp;lt;">
+<meta name="keywords" content="高数,极限,">
+<meta property="og:type" content="article">
+<meta property="og:title" content="极限的性质">
+<meta property="og:url" content="http://thelazypig.space/2019/03/12/极限的性质/index.html">
+<meta property="og:site_name" content="thelazypig&#39;home">
+<meta property="og:description" content="一、极限的唯一性若\lim _{x \to *}f(x)=A，则A唯一。  求证\lim_{x \to {x_0}}f(x)=A，则A唯一。  【分析】此题可用反证法假设f(x)的极限还等于B，得出矛盾，从而证得！ 【证明】已知\lim_{x \to {x_0}}f(x)=A, 则 \forall \xi &amp;gt;0 ,\exists \delta_1 &amp;gt;0，当0&amp;lt;|x-{x_0}|&amp;lt;">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:image" content="https://github.com/newpig2222/photo/raw/master/2019031401.jpg">
+<meta property="og:updated_time" content="2019-03-14T14:47:03.917Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="极限的性质">
+<meta name="twitter:description" content="一、极限的唯一性若\lim _{x \to *}f(x)=A，则A唯一。  求证\lim_{x \to {x_0}}f(x)=A，则A唯一。  【分析】此题可用反证法假设f(x)的极限还等于B，得出矛盾，从而证得！ 【证明】已知\lim_{x \to {x_0}}f(x)=A, 则 \forall \xi &amp;gt;0 ,\exists \delta_1 &amp;gt;0，当0&amp;lt;|x-{x_0}|&amp;lt;">
+<meta name="twitter:image" content="https://github.com/newpig2222/photo/raw/master/2019031401.jpg">
+  
+    <link rel="alternate" href="/atom.xml" title="thelazypig&#39;home" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    
+  
+  <link rel="stylesheet" href="/css/style.css"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  
+
+</head>
+</html>
+<body>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    
+    <div id="header-inner" class="inner">
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://thelazypig.space"></form>
+      </div>
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">首页</a>
+        
+          <a class="main-nav-link" href="/archives">归档</a>
+        
+          <a class="main-nav-link" href="/about">关于</a>
+        
+          <a class="main-nav-link" href="/gaoshu">高数笔记</a>
+        
+      </nav>
+      
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">thelazypig&#39;home</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">love mylife</a>
+        </h2>
+      
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-极限的性质" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/03/12/极限的性质/" class="article-date">
+  <time datetime="2019-03-12T08:14:52.000Z" itemprop="datePublished">2019-03-12</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/高数/">高数</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      极限的性质
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <!-- Table of Contents -->
+        
+        <h2 id="一、极限的唯一性"><a href="#一、极限的唯一性" class="headerlink" title="一、极限的唯一性"></a>一、极限的唯一性</h2><p>若<script type="math/tex">\lim _{x \to *}f(x)=A</script>，则A唯一。</p>
+<ol>
+<li><p>求证<script type="math/tex">\lim_{x \to {x_0}}f(x)=A</script>，则A唯一。</p>
+<blockquote>
+<p>【分析】此题可用反证法假设f(x)的极限还等于B，得出矛盾，从而证得！</p>
+<p>【证明】已知<script type="math/tex">\lim_{x \to {x_0}}f(x)=A</script>, 则 <script type="math/tex">\forall \xi</script> &gt;0 ,<script type="math/tex">\exists \delta_1</script> &gt;0，当0&lt;<script type="math/tex">|x-{x_0}|< \delta_1</script>时，|f(x)-A|&lt;<script type="math/tex">\xi</script>    (1)式</p>
+<p>又设 <script type="math/tex">\lim_{x \to {x_0}}f(x)=B</script>，且B <script type="math/tex">\not=A</script> ,(不妨设A&gt;B) 则<script type="math/tex">\forall \xi>0</script>，<script type="math/tex">\exists \delta_2>0</script>，当0&lt;<script type="math/tex">|x-{x_0}|< \delta_2</script>时，|f(x)-B|&lt;<script type="math/tex">\xi</script>    （2）式</p>
+<p><strong><em>取<script type="math/tex">\delta</script>=min{<script type="math/tex">\delta_1, \delta_2</script>}使得以下式子均成立（附近取最近使得两个式子均成立）</em></strong></p>
+<p>由（1）式可得  A-<script type="math/tex">\xi</script> &lt;f(x)&lt;A+<script type="math/tex">\xi</script>  </p>
+<p>（2）式可得B-<script type="math/tex">\xi</script>&lt;f(x)&lt;B+<script type="math/tex">\xi</script> </p>
+<p>因<script type="math/tex">\xi</script>为任意大于0的正数，因此取<script type="math/tex">\xi= \cfrac{A-B}{2}</script> , 则</p>
+<p>(1)式等于 <script type="math/tex">\cfrac{A+B}{2}<f(x)< \cfrac{3A-B}{2}</script></p>
+<p>（2）式等于   <script type="math/tex">\cfrac{3B-A}{2}<f(x)< \cfrac{A+B}{2}</script></p>
+<p>由此可得<script type="math/tex">\cfrac{A+B}{2}<f(x)< \cfrac{A+B}{2}</script> ，f(x)不可能大于一个数同时又小余这个数  ，因此矛盾</p>
+<p>得证,唯一。</p>
+</blockquote>
+</li>
+<li><p>例题1：<script type="math/tex">f(x)= \frac{x}{x}</script>，<script type="math/tex">\varphi (x)= \frac{|x|}{x}</script>，当<script type="math/tex">x \to 0</script>时，左右极限并说明它们在<script type="math/tex">x \to 0</script>时极限是否存在？</p>
+<blockquote>
+<ul>
+<li><script type="math/tex; mode=display">\lim_{x \to {0}^-}f(x)= \lim_{x \to {0^-}} \frac{x}{x}$$ ，因为x从左边趋向于0，但不等于0，因此$$\lim_{x \to {0^-}}f(x)= \lim_{x \to {0^-}}1=1</script></li>
+<li><p><script type="math/tex">\lim_{x \to {0^+}}f(x)= \lim_{x \to {0^+}}  \frac{x}{x}</script>，因为x从右边趋向于0，但不等于0，因此<script type="math/tex">\lim_{x \to {0^+}}f(x)= \lim_{x \to {0^+}}1=1</script>。</p>
+<p><strong><em>左右极限存在且相等，极限存在！</em></strong>因此f(x)在<script type="math/tex">x \to 0</script>时，存在极限，极限等于1。</p>
+</li>
+<li><p><script type="math/tex">\lim_{x \to {0^-}} \varphi(x)= \lim_{x \to  {0^-}} \frac{|x|}{x}</script>，因为x从左边趋向于0，因此x为负数即<script type="math/tex">\lim_{x \to {0^-}} \varphi(x)= \lim_{x \to {0^-}} \frac{-x}{x}= \lim_{x \to {0^-}}-1=-1</script>。</p>
+</li>
+<li><p><script type="math/tex">\lim_{x \to {0^+}} \varphi(x)= \lim_{x \to {0^+}} \frac{|x|}{x}</script>，因为x从右边趋向于0，因此x为正数即<script type="math/tex">\lim_{x \to {0^+}} \varphi(x)= \lim_{x \to {0^+}} \frac{x}{x}= \lim_{x \to {0^+}}1=1</script>。</p>
+<p><strong><em>左右极限不相等，极限不存在！</em></strong></p>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p>例题2：求当<script type="math/tex">x \to 1</script>时，函数<script type="math/tex">\cfrac{x^2-1}{x-1}{e^{\frac{1}{x-1}}}</script>的极限。</p>
+<blockquote>
+<p>【分析】求函数极限实际上就是<strong><em>求其左右极限是否存在且相等！</em></strong></p>
+<p>【解】<script type="math/tex">\lim_{x \to 1}  \cfrac{x^2-1}{x-1}{e^{\frac{1}{x-1}}}</script>= <script type="math/tex">\lim_{x \to 1} \cfrac{(x-1)*(x+1)}{x-1}{e^{\frac{1}{x-1}}}</script> =<script type="math/tex">\lim_{x \to 1}  (x+1)*e^{\frac{1}{x-1}}</script> </p>
+<p>=<script type="math/tex">\lim_{x \to 1}2*e^{\frac{1}{x-1}}</script> 【此处因为<script type="math/tex">\lim_{x \to 1}(x+1)=2</script>】,<strong>在计算极限时要及时提出不为零的因式</strong>，原式=<script type="math/tex">2* \lim_{x \to 1}e^{ \frac{1}{x-1}}</script> ，因此原式就等于求<script type="math/tex">e^{ \frac{1}{x-1}}</script> 的极限。</p>
+<hr>
+<p><script type="math/tex">\lim_{x \to 1^-}e^{ \frac{1}{x-1}}</script> ，因为 <script type="math/tex">x \to 1^-</script>  ，<script type="math/tex">\frac{1}{x-1}= -\infty</script> ,因此原式简化为求<script type="math/tex">e^- \infty</script> 的值。</p>
+<p>同理<script type="math/tex">\lim_{x \to 1^+}e^{ \frac{1}{x-1}}</script> ,因为<script type="math/tex">x \to 1^+</script>，<script type="math/tex">\frac{1}{x-1}=+ \infty</script>,因此原式简化为求<script type="math/tex">e^+ \infty</script>的值。</p>
+<p>根据指数函数<script type="math/tex">e^x</script>图像可知：<script type="math/tex">e^- \infty=0</script> ，而<script type="math/tex">e^+ \infty=+ \infty</script> 。<strong><em>即左右极限不相等，极限不存在！</em></strong></p>
+<p><img src="https://github.com/newpig2222/photo/raw/master/2019031401.jpg" alt="$$e^x$$的函数图像"> <strong>注意：求极限的函数中包含了<script type="math/tex">f(x)=e^x</script>的部分，很大情况下会利用到上图，注意及时提出不为零的因子，进行化简！</strong></p>
+</blockquote>
+</li>
+</ol>
+<h2 id="二、局部有界性"><a href="#二、局部有界性" class="headerlink" title="二、局部有界性"></a>二、局部有界性</h2>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://thelazypig.space/2019/03/12/极限的性质/" data-id="cjtdmbwm6000hj4wsbkc7qvdb" class="article-share-link">分享</a>
+      
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/高数-极限/">高数,极限,</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+ <script src="/jquery/jquery.min.js"></script>
+  <div id="random_posts">
+    <h2>推荐文章</h2>
+    <div class="random_posts_ul">
+      <script>
+          var random_count =4
+          var site = {BASE_URI:'/'};
+          function load_random_posts(obj) {
+              var arr=site.posts;
+              if (!obj) return;
+              // var count = $(obj).attr('data-count') || 6;
+              for (var i, tmp, n = arr.length; n; i = Math.floor(Math.random() * n), tmp = arr[--n], arr[n] = arr[i], arr[i] = tmp);
+              arr = arr.slice(0, random_count);
+              var html = '<ul>';
+            
+              for(var j=0;j<arr.length;j++){
+                var item=arr[j];
+                html += '<li><strong>' + 
+                item.date + ':&nbsp;&nbsp;<a href="' + (site.BASE_URI+item.uri) + '">' + 
+                (item.title || item.uri) + '</a></strong>';
+                if(item.excerpt){
+                  html +='<div class="post-excerpt">'+item.excerpt+'</div>';
+                }
+                html +='</li>';
+                
+              }
+              $(obj).html(html + '</ul>');
+          }
+          $('.random_posts_ul').each(function () {
+              var c = this;
+              if (!site.posts || !site.posts.length){
+                  $.getJSON(site.BASE_URI + 'js/posts.js',function(json){site.posts = json;load_random_posts(c)});
+              } 
+               else{
+                load_random_posts(c);
+              }
+          });
+      </script>
+    </div>
+  </div>
+
+    
+<nav id="article-nav">
+  
+    <a href="/2019/03/18/突出重围——论社会阶层的产生的思维导图/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">上一篇</strong>
+      <div class="article-nav-title">
+        
+          突出重围——论社会阶层的产生的思维导图
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/03/11/今天的我们/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一篇</strong>
+      <div class="article-nav-title">今天的我们</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+ 
+     
+  <div class="comments" id="comments">
+    
+     
+       
+      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    
+       
+      
+      
+           <div id="gitment_comments"></div>
+    
+  </div>
+ 
+  
+
+</section>
+           
+    <aside id="sidebar">
+  
+    
+
+  
+    
+    <div class="widget-wrap">
+    
+      <div class="widget" id="toc-widget-fixed">
+      
+        <strong class="toc-title">文章目录</strong>
+        <div class="toc-widget-list">
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#一、极限的唯一性"><span class="toc-number">1.</span> <span class="toc-text">一、极限的唯一性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二、局部有界性"><span class="toc-number">2.</span> <span class="toc-text">二、局部有界性</span></a></li></ol>
+          </div>
+      </div>
+    </div>
+
+  
+    
+
+  
+    
+  
+    
+  
+    
+
+  
+    
+  
+    <!--微信公众号二维码-->
+
+
+  
+</aside>
+
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-left">
+      &copy; 2014 - 2019 Thelazypig&nbsp;|&nbsp;
+      主题 <a href="https://github.com/giscafer/hexo-theme-cafe/" target="_blank">Cafe</a>
+    </div>
+     <div id="footer-right">
+      联系方式&nbsp;|&nbsp;2859771479@qq.com
+    </div>
+  </div>
+</footer>
+ <script src="/jquery/jquery.min.js"></script>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">首页</a>
+  
+    <a href="/archives" class="mobile-nav-link">归档</a>
+  
+    <a href="/about" class="mobile-nav-link">关于</a>
+  
+    <a href="/gaoshu" class="mobile-nav-link">高数笔记</a>
+  
+</nav>
+    <img class="back-to-top-btn" src="/images/fly-to-top.png">
+<script>
+// Elevator script included on the page, already.
+window.onload = function() {
+  var elevator = new Elevator({
+    selector:'.back-to-top-btn',
+    element: document.querySelector('.back-to-top-btn'),
+    duration: 1000 // milliseconds
+  });
+}
+</script>
+      
+
+  
+    <script>
+      var cloudTieConfig = {
+        url: document.location.href, 
+        sourceId: "",
+        productKey: "e2fb4051c49842688ce669e634bc983f",
+        target: "cloud-tie-wrapper"
+      };
+    </script>
+    <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
+    
+
+  
+
+
+
+
+
+
+
+<!-- author:forvoid begin -->
+<!-- author:forvoid begin -->
+
+  <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+  <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script> 
+  <script>
+  var gitment = new Gitment({
+    // id: '页面 ID', // 可选。默认为 location.href
+    owner: 'newpig2222',
+    repo: 'newpig2222.github.io',
+    oauth: {
+    client_id: '3df3b95dee716539c3aa',
+    client_secret: 'b0cef6a4295ebe98324973e5174c92ecc7b160d2',
+    }
+  })
+  gitment.render(document.getElementById("gitment_comments"))
+</script>
+
+
+<!-- author:forvoid end -->
+
+<!-- author:forvoid end -->
+
+
+  
+
+
+ <script src="/js/is.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+<script src="/js/elevator.js"></script>
+  </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<!--<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>
